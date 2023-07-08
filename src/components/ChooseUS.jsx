@@ -19,7 +19,7 @@ const ChooseUs = ({choose}) => {
         height: '400px',
         width: '100%',
         background: `linear-gradient(to bottom, rgba(0, 128, 0, 0.5), rgba(0, 128, 0, 0.5)), url(${backgroundImage})`,
-        backgroundPosition: `center ${scrollY * 0.7}px`, // Adjust the scroll speed by multiplying the scrollY value
+        backgroundPosition: `center ${scrollY * 0.5}px`, // Adjust the scroll speed by multiplying the scrollY value
         backgroundSize: 'cover',
         transform: `rotate(${scrollY < 0 ? 180 : 0}deg)`,
         transition: 'transform 0.3s ease',
